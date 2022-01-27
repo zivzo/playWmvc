@@ -20,6 +20,7 @@ namespace playWmvc.Models
         public string PhoneNumber { get; set; }
         public bool HasGlasses { get; set; }
         public GenderType Gender { get; set; }
+        public string Address { get; set; }
     }
 
     public enum GenderType
